@@ -1,0 +1,15 @@
+{
+  "name": "pi-shared-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Declarative config orchestrator for the dual-brain Pi setup (terminal + VS Code). Deploys shared models.json, mcp.json and APPEND_SYSTEM.md into each agent dir.",
+  "keywords": ["pi-package"],
+  "type": "module",
+  "main": "src/index.ts",
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

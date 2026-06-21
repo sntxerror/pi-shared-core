@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "browser": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--browser", "chrome"],
+      "lifecycle": "lazy"
+    }
+  }
+}
